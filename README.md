@@ -28,15 +28,22 @@ Este proyecto en Python implementa el cálculo de áreas para diferentes figuras
 - El área del rectángulo es: 50
 - El área del triángulo es: 14.0
 - El área del círculo es: 28.27431
-## ERRORES QUE CORREGI:
+  
+## Propósito del repositorio
+Este repositorio contiene la implementación corregida de figuras geométricas en Python, cumpliendo con los estándares **PEP 8**. Su objetivo es demostrar buenas prácticas de codificación, uso de clases abstractas y documentación clara.
 
- | Error |	Estado | Corrección Aplicada | 
-- missing-final-newline	✅ Corregido	Añadiste línea en blanco al final del archivo
-- missing-module-docstring	✅ Corregido	Añadiste docstring al inicio del archivo
-- invalid-name	✅ Corregido	Renombraste el archivo a figura_geometrica.py
-- unnecessary-pass	✅ Justificado	Estaba en método abstracto, lo justificaste bien
-- too-few-public-methods	✅ Corregido	Todas las clases ahora implementan 2 métodos
-- missing-class-docstring	✅ Corregido	Añadiste docstrings a todas las clases
+## Cambios realizados
+- ✔️ Corrección de nombres a `snake_case` (ej: `AreaRectangulo` → `area_rectangulo`)  
+- ✔️ Añadidos docstrings completos (módulo, clases y métodos)  
+- ✔️ Implementado método abstracto `tipo_figura()` para cumplir con R0903  
+- ✔️ Eliminación de `pass` innecesarios  
+- ✔️ Formateo de operadores (ej: `x=5+3` → `x = 5 + 3`)  
+- ✔️ Corrección de final de archivo (newline faltante)  
+
+## Autor
+**Jorge Luis Cruz Salazar**  
+📌 Estudiante de Python | Corrección PEP 8  
+🔗 [Mi perfil GitHub](https://github.com/Jorgecruz768)
 ## Desarrollador
 | Apellidos y nombres     |
 |-------------------------|
